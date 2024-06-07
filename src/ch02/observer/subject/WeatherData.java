@@ -1,6 +1,6 @@
-package ch02.subject;
+package ch02.observer.subject;
 
-import ch02.Observer;
+import ch02.observer.Observer;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ch02.display;
+package ch02.observer.display;
 
 public interface DisplayElement {
 	void display();

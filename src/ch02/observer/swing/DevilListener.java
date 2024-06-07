@@ -1,4 +1,4 @@
-package ch02.swing;
+package ch02.observer.swing;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

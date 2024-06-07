@@ -1,8 +1,8 @@
-package ch02.subject;
+package ch02.observer.subject;
 
-import ch02.display.CurrentConditionsDisplay;
-import ch02.display.ForecastDisplay;
-import ch02.display.StatisticsDisplay;
+import ch02.observer.display.CurrentConditionsDisplay;
+import ch02.observer.display.ForecastDisplay;
+import ch02.observer.display.StatisticsDisplay;
 
 public class WeatherStation {
 

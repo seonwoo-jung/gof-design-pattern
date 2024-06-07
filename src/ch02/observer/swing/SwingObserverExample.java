@@ -1,4 +1,4 @@
-package ch02.swing;
+package ch02.observer.swing;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

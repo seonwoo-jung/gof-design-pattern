@@ -1,7 +1,7 @@
-package ch02.display;
+package ch02.observer.display;
 
-import ch02.Observer;
-import ch02.subject.WeatherData;
+import ch02.observer.Observer;
+import ch02.observer.subject.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;

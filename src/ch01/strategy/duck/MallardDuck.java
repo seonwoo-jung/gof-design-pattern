@@ -1,13 +1,13 @@
-package ch01.duck;
+package ch01.strategy.duck;
 
-import ch01.fly.FlyWithWings;
-import ch01.quack.Quack;
+import ch01.strategy.fly.FlyWithWings;
+import ch01.strategy.quack.Quack;
 
 public class MallardDuck extends Duck {
 
 	public MallardDuck() {
-		quackBehavior = new Quack();
 		flyBehavior = new FlyWithWings();
+		quackBehavior = new Quack();
 	}
 
 	public void display() {
